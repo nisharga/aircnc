@@ -1,0 +1,72 @@
+.priceTable{
+    margin: 50px 0px;
+}
+.priceTable{
+    padding: 20px 15px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0 0 10px powderblue;
+} 
+.priceTable p{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+a.reserve {
+    background: linear-gradient( 90deg , rgba(43,222,140,1) 0%, rgba(117,238,82,1) 100%);
+    color: #fff !important;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+} 
+
+
+
+
+.priceTable h4 {
+    font-size: 20px;
+  }
+  .icon h5 {
+    font-size: 13px;
+  }
+  .icon img {
+    width: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  .icon {
+    margin-top: 13px;
+  }
+  .datePriceTable label {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 9px;
+  }
+  .datePriceTable{
+    position: relative;
+  }
+  .datePriceTable svg {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .rlp {
+    padding: 0px 5px;
+    margin-top: 15px;
+}
+
+.priceTable hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .priceTable h5 {
+    font-size: 17px;
+}
+.priceTable h4 {
+    font-size: 20px;
+    font-weight: 700;
+}

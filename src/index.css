@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'HelveticaNeue Medium';
+  src: url('../src/font/HelveticaNeueMedium.ttf'); 
+  src: url('../src/font/HelveticaNeue\ Medium.eot') format('embedded-opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  margin: 0; 
+  font-family: 'HelveticaNeue Medium', 'Segoe UI', 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

@@ -1,0 +1,36 @@
+a.navbar-brand {  
+    color: #2bde8c !important;
+    font-size: 30px;
+}
+.navbar{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.navbar .nav-item a.nav-link{
+    color: #000;
+}
+
+a.signupBtn{
+    background: linear-gradient(90deg, rgba(43,222,140,1) 0%, rgba(117,238,82,1) 100%);
+    color: #fff !important;
+    border-radius: 50px;
+}
+
+.marginRight {
+    margin-right: 70px !important;
+}
+
+.division,
+.date,
+.guests{
+    border-right: 1px solid #80bdff;
+}
+.search{ 
+    margin-top: 4px;
+}
+.search a{
+    color: #2bde8c !important;
+    font-size: 20px;
+}

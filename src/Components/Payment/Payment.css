@@ -1,0 +1,48 @@
+.StripeElement.StripeElement--empty {
+    background: powderblue;
+    padding: 20px;
+    color: #000;
+}
+input.InputElement.is-empty.Input.Input--empty:focus {
+    color: blue;
+    background: red;
+}
+
+.keep-in-mind img{
+    width: 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+} 
+.agreeBtn {
+    background: linear-gradient( 90deg , rgba(43,222,140,1) 0%, rgba(117,238,82,1) 100%);
+    color: #fff !important;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+} 
+
+
+.houserule .bgPoderBlue {
+    background: powderblue;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+
+
+  
+.titleArrow h5 {
+    font-size: 16px;
+    float: left; 
+  }
+
+  .titleIcon{ 
+      float: right;
+      margin-left: 5px;
+      margin-top: 3px;
+  }

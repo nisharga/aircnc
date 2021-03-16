@@ -1,0 +1,125 @@
+.react-datepicker-wrapper {
+    overflow: hidden;
+}
+
+
+.locationSearch, .guestsSearch{
+    box-shadow: 0 0 10px #80bdff;
+    padding: 10px;
+}
+.personSearch {
+	box-shadow: 0 7px 20px 0 #80bdff; 
+}
+.locationSearch input{
+    border: none;
+}
+
+.startDate input,
+.endDate input{
+    border: none; 
+}
+.startDate{
+    margin-left: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px #80bdff;
+}
+.endDate{
+    margin-right: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px #80bdff;
+}
+.startDate, .endDate{position: relative;
+}
+
+
+.startDate .icon, .endDate .icon {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    
+}
+
+.personSearch.form-control {
+    border-top: none;
+}
+/* .guestsList{
+    width: 80%;
+    
+} */
+
+.countPerson button,
+.countChild button,
+.countBaby button{
+    width: 30px;
+    float: left;
+    margin-left: 0px;
+  }
+  .countPerson h6,
+  .countChild h6,
+  .countBaby h6{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
+.apply {
+    text-decoration: none;
+    color: #6BEC58;
+    border: 2px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px !important;
+    float: right;
+  }
+  
+  .apply:hover{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid;
+    transition: 0.3s;
+  }
+
+
+  a.search {
+    background: linear-gradient( 90deg , rgba(43,222,140,1) 0%, rgba(117,238,82,1) 100%);
+    color: #fff !important;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+} 
+a.search .icon {
+    margin-right: 9px;  
+}
+
+.personSearch button {
+    border: none;
+    background: no-repeat;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .endDate {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .startDate {
+        margin-right: 15px;
+    }
+
+    .react-datepicker-ignore-onclickoutside {
+        width: 100%;
+    }
+
+    a.search{
+        margin-bottom: 25px;
+    }
+    a.SingleExperience{
+        margin-bottom: 30px;
+    }
+
+  }

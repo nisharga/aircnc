@@ -1,0 +1,65 @@
+.experinceHome img{
+    margin: 10px 0px;
+}
+
+.experinceHome .location {
+    font-size: 14px;
+    font-weight: 500;
+}
+.experinceHome p {
+    opacity: 0.9;
+    font-size: 16px;
+}
+.experinceHome .reviewBox img{
+    width: 40px;
+    float: left;
+    height: 8px;
+    margin-top: -10px;
+}
+.experinceHome .reviewBox p{
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+
+/* .experinceHome:hover{
+    box-shadow: 0 0 10px;
+} */
+
+.box{
+    transform: scale(1);
+    margin: 10px 0px;
+}
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+a.SingleExperience:hover{
+    text-decoration: none;
+    background-color: rebeccapurple;
+}
+a.SingleExperience .title{
+   font-size: 18px;
+}
+a.SingleExperience h6{
+    color: #000;
+}
+a.SingleExperience p {
+    opacity: 0.8;
+    color: #000;
+}
+.reviewBox p {
+    color: #000;
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .box {
+        margin: 0 40px;
+    }
+  }

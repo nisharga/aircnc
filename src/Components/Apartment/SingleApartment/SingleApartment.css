@@ -1,0 +1,45 @@
+.SingleApartment img{
+    border-radius: 5px;
+}
+.SingleApartment{
+    margin: 10px 0px; 
+}
+.SingleApartment:hover{
+    text-decoration: none;
+}
+.SingleApartment h6{
+    color:#000;
+}
+.SingleApartment p {
+    margin-bottom: 5px;
+  }
+  .SingleApartment p:nth-child(2),
+  .SingleApartment p:nth-child(3),
+  .SingleApartment p:nth-child(4) {
+    opacity: 0.6;
+  }
+
+
+  .apartmentImg{
+      margin: 20px 0px;
+  }
+
+  .reviewApartment{
+      width: 150px;
+  }
+
+
+  .reviewApartment img {
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+  }
+  .reviewApartment p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    opacity: 1;
+    margin-left: 5px;
+  }
+
+
